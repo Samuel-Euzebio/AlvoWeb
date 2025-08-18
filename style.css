@@ -68,6 +68,7 @@ header{
     will-change: transform; 
     transform: translateZ(0);
     backface-visibility: hidden;
+    text-align: center;
 }
 
 .header-contact-button:hover{
@@ -446,6 +447,10 @@ footer{
 }
 
 @media (max-width: 760px){
+
+    .header-logo img{
+        height: 30px;
+    }
     .menu-navigation{
         display: none;
     }
@@ -512,12 +517,6 @@ footer{
     .about{
         margin-top: 0;
     }
-
-    .background-target-element {
-        width: 100%;
-        height: auto;
-        left: 0;
-    }
 }
 
 @media (max-width: 600px){
@@ -564,6 +563,15 @@ footer{
 }
 
 @media (max-width: 480px){
+
+    .header-contact-button{
+        font-size: 0.9rem;
+    }
+
+    .cta-button{
+        font-size: 0.9rem;
+    }
+
     .footer-logo img{
         display: none;
     }
