@@ -512,6 +512,12 @@ footer{
     .about{
         margin-top: 0;
     }
+
+    .background-target-element {
+        width: 100%;
+        height: auto;
+        left: 0;
+    }
 }
 
 @media (max-width: 600px){
@@ -559,6 +565,20 @@ footer{
 
 @media (max-width: 480px){
     .footer-logo img{
-    height: 9rem;
+        display: none;
+    }
+
+    .social-media-container{
+        gap: 1rem;
+        margin-left: 5px;
+    }
+
+    .copyright{
+        font-size: 1rem;
+    }
 }
+
+img, .background-target-element, .process-card, .cta-container {
+  max-width: 100%;
+  overflow-x: hidden;
 }
