@@ -48,6 +48,7 @@ header{
 }
 
 .menu-navigation li{
+    text-align: center;
     padding: 5px 20px;
     border-right: 2px solid #AAB3C0;
 }
@@ -105,7 +106,7 @@ header{
     background-repeat: no-repeat;
     top: 5%;
     left: -15%;
-    z-index: -2;
+    z-index: -3000;
 }
 
 .cta-container{
@@ -121,6 +122,11 @@ header{
     gap: 2rem;
     justify-content: center;
     align-items: center;
+    background-image: url('./assets/cta-background.jpg');
+    background-blend-mode: darken;
+    background-color: #1d3557ce;
+    background-size: cover;
+    background-position: 50% 50%;
 }
 
 .cta-text{
@@ -138,7 +144,7 @@ header{
   width: 50%;
   border-radius: 15px;
   border: 3px solid white;
-  background-color: #132135;
+  background-color: #13213588;
   color: white;
   font-size: 1.5rem;
   font-weight: 700;
@@ -157,8 +163,7 @@ header{
 
 .cta-button img{
   display: block;
-  width: 1.6rem; 
-  height: 1.6rem; 
+  height: 4rem; 
   object-fit: contain;
 }
 
@@ -189,7 +194,7 @@ h2{
 
 .process-card{
     border-radius: 15px;
-    padding: 20px;
+    padding: 50px;
     width: 40%;
     background: linear-gradient(90deg, #1D3557, #2F568F);
     box-shadow: 0 0 30px 15px rgba(29, 53, 87, 0.5);
@@ -246,13 +251,6 @@ h2{
     background-position: 50% 50%;
 }
 
-.card5{
-    background-image: url('./assets/image\ 5.jpg');
-    background-blend-mode: darken;
-    background-color: #1d3557ce;
-    background-size: cover;
-    background-position: 50% 50%;
-}
 
 .process-container-mobile{
     display: none;
@@ -263,11 +261,11 @@ h2{
     padding: 2rem 1rem;  
 }
 
-.about{
+.portifolio{
     margin-top: 2.5rem;
 }
 
-.about-container{
+.portifolio-container{
     border-radius: 15px;
     background: linear-gradient(90deg, #1D3557, #2F568F);
     box-shadow: 0 0 30px 15px rgba(29, 53, 87, 0.5);
@@ -276,34 +274,40 @@ h2{
     margin: 0 auto;
     display: flex;
     margin-top: 2rem;
+    background-image: url('./assets/portifolio-background.jpg');
+    background-blend-mode: darken;
+    background-color: #1d3557ce;
+    background-size: cover;
+    background-position: 50% 50%;
 }
 
-.about-content p{
-    color: white;
-    margin-top: 2rem;
-    line-height: 1.5;
+.portifolio-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+    gap: 40px
 }
 
-.about-content h3{
-    text-align: center;
-    font-size: 2rem;
-    background: linear-gradient(90deg, #FFFFFF, #999999);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 900;
+.portifolio-card{
+    border-radius: 15px;
+    background: linear-gradient(90deg, #1D3557, #2F568F);
+    box-shadow: 0 0 30px 15px rgba(29, 53, 87, 0.5);
 }
 
-.about-content{
-    padding: 5px 20px;
-    border-right: 2px solid #AAB3C0;
+.portifolio-card img{
+    border-radius: 15px;
+    mix-blend-mode: soft-light;
+    width: 100%;
+    cursor: pointer;
 }
 
-.about-content:last-child{
-    border-right: none;
+.portifolio-card img:hover{
+    mix-blend-mode: normal;
 }
 
-.about-cta-button{
+.portifolio-cta-button{
     display: block;
     width: 40%;
     margin: 2.5rem auto 0 auto;
@@ -322,7 +326,7 @@ h2{
     cursor: pointer;
 }
 
-.about-cta-button:hover{
+.portifolio-cta-button:hover{
     transform: scale(1.02);
 }
 
@@ -487,20 +491,21 @@ footer{
         transform: translatey(-50%) translateX(-50%);
     }
 
-    .about-cta-button{
+    .portifolio-cta-button{
         width: 50%;
     }
 
-    .about-container{
+    .portifolio-container{
         display: grid;
     }
 
-    .about-content{
+    .portifolio-content{
+        display: grid;
         border-right: none;
         border-bottom: 2px solid #AAB3C0;
     }
 
-    .about-content:last-child{
+    .portifolio-content:last-child{
         border-bottom: none;
     }
 
@@ -514,7 +519,7 @@ footer{
         margin: 0 auto;
     }
 
-    .about{
+    .portifolio{
         margin-top: 0;
     }
 }
