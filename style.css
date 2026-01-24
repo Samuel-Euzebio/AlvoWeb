@@ -19,9 +19,7 @@ html{
 }
 
 header{
-    background: rgba(255, 255, 255, 0); 
-    backdrop-filter: blur(5px); 
-    -webkit-backdrop-filter: blur(5px);
+    background: rgb(255, 255, 255); 
     position: fixed;
     z-index: 1000;
     top: 0;
@@ -37,6 +35,7 @@ header{
     border-bottom-right-radius: 10px;
     box-shadow: 0 0 5px rgba(0,0,0,0.3);
 }
+
 
 .header-logo img{
     height: 45px;
@@ -122,11 +121,6 @@ header{
     gap: 2rem;
     justify-content: center;
     align-items: center;
-    background-image: url('./assets/cta-background.jpg');
-    background-blend-mode: darken;
-    background-color: #1d3557ce;
-    background-size: cover;
-    background-position: 50% 50%;
 }
 
 .cta-text{
