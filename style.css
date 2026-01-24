@@ -447,6 +447,10 @@ footer{
 
 @media (max-width: 760px){
 
+    .background-target-element{
+    display: none;
+    }
+
     .header-logo img{
         height: 30px;
     }
@@ -550,12 +554,6 @@ footer{
         font-size: .8rem;
     }
 
-     .cta-container,
-    .process-card,
-    .portifolio-container,
-    footer {
-    box-shadow: 0 0 15px 5px rgba(29,53,87,.4);
-    }
 }
 
 @media (max-width: 520px){
