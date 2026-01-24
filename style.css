@@ -1,14 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
 *{
-    font-family: "Montserrat", sans-serif;
     text-decoration: none;
     list-style: none;
     outline: none;
     box-sizing: border-box;
     color: inherit;
     -webkit-tap-highlight-color: transparent;
-    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
 }
@@ -16,6 +12,11 @@
 html{
     scroll-padding-top: 80px;
     overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
 }
 
 header{
@@ -547,6 +548,13 @@ footer{
 
     .social-media span{
         font-size: .8rem;
+    }
+
+     .cta-container,
+    .process-card,
+    .portifolio-container,
+    footer {
+    box-shadow: 0 0 15px 5px rgba(29,53,87,.4);
     }
 }
 
