@@ -198,12 +198,13 @@ h2{
 .process-card-text{
     color: white;
     font-weight: 500;
+    text-shadow: 0 0px 20px rgb(0, 0, 0);
 }
 
 .process-content-number{
     font-size: 6rem;
     font-weight: 900;
-    color: #c2c5cb;
+    color: #c2c5cb8f;
     position: absolute;
     z-index: -2500;
     transform: translateY(-50%)translateX(6rem);
@@ -213,11 +214,12 @@ h2{
     color: #1D3557;
     font-weight: 700;
     font-size: 1.3rem;
+    text-shadow: 0 0px 20px rgba(0, 0, 0, 0.395);
 }
 
 .card1{
     background-image: url('./assets/image\ 1.jpg');
-    background-blend-mode: darken;
+    background-blend-mode:soft-light;
     background-color: #1d3557ce;
     background-size: cover;
 }
@@ -295,6 +297,7 @@ h2{
     border-radius: 15px;
     mix-blend-mode: soft-light;
     width: 100%;
+    height: auto;
     cursor: pointer;
 }
 
