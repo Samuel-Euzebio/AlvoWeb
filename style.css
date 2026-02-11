@@ -51,6 +51,13 @@ header{
     text-align: center;
     padding: 5px 20px;
     border-right: 2px solid #AAB3C0;
+    color: #1D3557;
+    font-weight: 600;
+    transition: .2s;
+}
+
+.menu-navigation li:hover{
+    color: #0000008f;
 }
 
 .menu-navigation li:last-child{
@@ -60,7 +67,7 @@ header{
 .header-contact-button{
     color: white;
     border-radius: 15px;
-    padding: 10px;
+    padding: 15px;
     font-weight: 600;
     cursor: pointer;
     background: linear-gradient(90deg, #1D3557, #2F568F);
@@ -111,17 +118,18 @@ header{
 
 .cta-container{
     width: 80%;
-    height: 10rem;
+    height: 8rem;
     margin: 0 auto;
     margin-top: 2.5rem;
     border-radius: 15px;
     background: linear-gradient(90deg, #1D3557, #2F568F);
     box-shadow: 0 0 30px 15px rgba(29, 53, 87, 0.5);
     display: flex;
-    padding: 20px;
+    padding: 20px;  
     gap: 2rem;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .cta-text{
@@ -136,14 +144,14 @@ header{
   align-items: center;              
   justify-content: center;          
   gap: 12px;
-  width: 50%;
-  border-radius: 15px;
-  border: 3px solid white;
+  width: 20%;
+  border-radius: 30px;
+  border: 2px solid white;
   background-color: #13213588;
   color: white;
   font-size: 1.5rem;
   font-weight: 700;
-  padding: 20px;
+  padding: 10px;
   cursor: pointer;
   transition: .3s;
   will-change: transform; 
@@ -397,7 +405,7 @@ footer{
 .copyright{
     margin-top: 1rem;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 
